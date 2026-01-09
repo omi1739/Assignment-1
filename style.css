@@ -167,3 +167,104 @@ nav .nav-btn:hover{
     height: 29px;
     margin: 0 auto;
 }
+
+.solution-section{
+    display: flex;
+    width: 1150px;
+    height:600px;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+}
+
+.solution-image img{
+    width: 550px;
+    height: 550px;
+}
+
+.solution-container{
+    margin: 100px 0;
+}
+
+.solution-container h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.solution-container h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.solution-container .para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3a674c;
+    padding-bottom: 30px;
+}
+
+.solution-container .check{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.solution-container .check img{
+    padding-left: 0;
+}
+
+.challnege-section{
+    width: 1100px;
+    height: 380px;
+    margin: 0 auto;
+    background-color: rgba(247, 246, 242, 1);
+}
+
+.challenge-part{
+    text-align: center;
+}
+
+.challenge-part h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 80px 40px 0 40px;
+}
+
+.challenge-part p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3a674c;
+    padding-top: 20px;
+}
+
+.challenge-button{
+     display: flex;
+     justify-content: center;
+}
+
+.challenge-button button{
+    width: 195px;
+    height: 52px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 24px;
+   
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    color: #3a674c;
+    margin-top: 18px;
+}
