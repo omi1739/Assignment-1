@@ -149,7 +149,12 @@ nav .nav-btn:hover{
     font-weight: 600;
     border-radius: 4px;
 }
-
+.btn-2:hover{
+  background-color: beige;
+  transition: 0.3s;
+  box-shadow: 1px 1px 5px gray;
+  color: black;
+}
 .btn-2 img{
     padding: 0 20px 16px 16px;
 }
