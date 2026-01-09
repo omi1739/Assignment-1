@@ -36,6 +36,13 @@ nav ul a{
     font-weight: 550;
 }
 
+nav ul a:hover{
+    background-color: rgb(54, 54, 135);
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
 nav .nav-btn {
     /* margin: 24px 120px 0; */
     width: 164px;
@@ -71,28 +78,26 @@ nav .nav-btn:hover{
 }
 
 .banner-content .h5-class{
+    display: flex;
+    justify-content: space-between;
     background-color: bisque;
     width: 230px;
-    margin: auto;
+    margin:0 auto;
     padding: 8px 12px 8px 34px;
     background-color: #FFF;
     border-radius: 1000px;
-    
 }
 
 .banner-content .h5-class h5{
-    display: flex;
-    gap: 5px;
+     display: flex;
+    gap: 15px;
     justify-content: space-between;
     font-size: 14px;
     font-weight: 600;
     color: #30B868;
+    margin-left: -15px;
 }
 
-.banner-content .h5-class img{
-   
-   margin-left: -10; 
-}
 
 .banner-content .heading{
     font-size: 50px;
@@ -172,9 +177,15 @@ nav .nav-btn:hover{
 .card{
     padding: 24px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
-    background-color:rgb(220, 217, 217) ;
-    
-   
+    background-color:rgb(228, 250, 247) ;
+    border: none;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
 }
 
 .card .icon{
@@ -227,6 +238,21 @@ nav .nav-btn:hover{
     padding-bottom: 16px;
 }
 
+.solution-container .p-tag{
+    display: flex;
+    gap: 5px;
+}
+
+.solution-container .p-tag img{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+.solution-container .check{
+    margin: 3px 0;
+}
+
 .solution-container .para{
     font-size: 16px;
     font-weight: 400;
@@ -241,9 +267,6 @@ nav .nav-btn:hover{
     line-height: 20px;
 }
 
-.solution-container .check img{
-    padding-left: 0;
-}
 
 .challnege-section{
     width: 1100px;
