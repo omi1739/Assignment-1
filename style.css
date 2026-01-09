@@ -79,9 +79,33 @@ nav .nav-btn:hover{
     border-radius: 1000px;
     
 }
+
+.banner-content .h5-class h5{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    color: #30B868;
+}
+
 .banner-content .h5-class img{
-    background-color: aqua;
-    
+   
+   margin-left: -10; 
+}
+
+.banner-content .heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.banner-content .para p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 24px;
+    padding-bottom: 16px;
 }
 
 .btns{
@@ -225,6 +249,22 @@ nav .nav-btn:hover{
     border-radius:12px;
 }
 
+.card-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.card-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 50px;
+    color: #3a674c;
+}
+
 .challenge-part{
     text-align: center;
 }
@@ -277,10 +317,11 @@ nav .nav-btn:hover{
 
 
 footer{
-    width: 100%;
-    height: 300px;
+    width: auto;
+    height:auto ;
     background-color: rgba(0, 25, 49, 1);
     margin-top: 100px;
+    padding: 120px 120px 20px 120px;
 }
 
 
@@ -290,7 +331,6 @@ footer{
     width: 1200px;
     height: 50px;
     margin: 0 auto;
-    margin-top: 90px;
     
 }
 
@@ -323,14 +363,18 @@ footer .copyright{
     height: 50px;
     margin: 0 auto;
     padding-bottom: 0%;
-    background-color: #30B868;
+}
+
+footer hr{
+   
+    margin: 40px 0 20px;
+
 }
 
 footer p{
     color: #FFF;
-    text-align: center;  
+    text-align: center;
+    height: 24px; 
+    margin-top: 100px; 
 }
 
-footer .last{
-   margin-bottom: 0;
-}
